@@ -1,4 +1,4 @@
-FROM registry.cn-beijing.aliyuncs.com/acs-sample/jenkins-kubernetes-slave-dind:1.0
+FROM yuleaugustine/jenkins-kubernetes-slave-dind:latest
 
 #maven
 ENV MAVEN_VERSION 3.3.9
